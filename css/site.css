@@ -26,6 +26,8 @@
 html {
   scroll-behavior: smooth;
   overflow-x: clip;
+  /* Keeps in-page jumps below the sticky bar at every width, including when the nav wraps. */
+  scroll-padding-top: 7.5rem;
 }
 
 body {
@@ -62,8 +64,10 @@ h3 {
 }
 
 h1 {
-  margin: 0.15rem 0 1rem;
+  margin: 0.35rem 0 1rem;
+  padding-top: 0.12em;
   font-size: clamp(4.4rem, 18vw, 8.4rem);
+  scroll-margin-top: 7.5rem;
 }
 
 h2 {
@@ -200,7 +204,8 @@ a:hover {
 }
 
 .hero {
-  padding: 1.75rem 0 2.4rem;
+  /* Room under the sticky bar so the big name is never covered, even when the nav wraps. */
+  padding: 3.25rem 0 2.4rem;
 }
 
 .hero-grid {
@@ -504,7 +509,7 @@ h1::after {
 }
 
 section[id] {
-  scroll-margin-top: 5.5rem;
+  scroll-margin-top: 7.5rem;
 }
 
 @media (min-width: 760px) {
@@ -513,7 +518,7 @@ section[id] {
   }
 
   .hero {
-    padding: 2.8rem 0 3.2rem;
+    padding: 4.75rem 0 3.2rem;
   }
 
   .hero-grid {
