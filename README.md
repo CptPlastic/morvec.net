@@ -7,8 +7,6 @@ Plesk deploys the site by pulling the `main` branch straight into the web root o
 ## What to edit
 
 - Words and layout: `index.html` and `css/site.css`
-- Notes: add a page under `notes/` and a card on `notes/index.html` (and on the homepage if it should be featured). The first note is `notes/cornbread.html`.
-- The sticker-and-decal code is the `#promo` block in `index.html`. It stays up through the date in `data-until`. After that day in Oklahoma, `js/site.js` removes it.
-- Social links live in the footer of each page: Facebook profile, the shop Facebook Page, and TikTok at [@tad.morvec](https://www.tiktok.com/@tad.morvec). Instagram is not listed.
+- Notes: add a page under `notes/` and a line on `notes/index.html` (and on the homepage if it should be listed). Notes so far live as separate pages under `notes/`.
 - Photos: `images/`
 - Mail: tad@morvec.net
