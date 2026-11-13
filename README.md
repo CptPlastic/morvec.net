@@ -7,7 +7,6 @@ Plesk deploys the site by pulling the `main` branch straight into the web root o
 ## What to edit
 
 - Words and layout: `index.html` and `css/site.css`
-- The sticker-and-decal code is the `#promo` block in `index.html`. It stays up through the date in `data-until`. After that day in Oklahoma, `js/site.js` removes it.
-- Social links for @tadmorvec live in one list in the footer of `index.html`. Instagram will come back later with a new handle.
+- Notes: add a page under `notes/` and a line on `notes/index.html` (and on the homepage if it should be listed). Notes so far live as separate pages under `notes/`.
 - Photos: `images/`
 - Mail: tad@morvec.net
